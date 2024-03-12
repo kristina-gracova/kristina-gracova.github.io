@@ -10,11 +10,19 @@ const Navbar = () => {
   return (
     <>
       <div className="h-120px navbar">
-        <div className={`grid grid-cols-12 ${junge.variable}`}>
-          <div className="col-start-2 logo"></div>
-          <div className="col-start-9 navbar-link">Work</div>
-          <div className="col-start-10 navbar-link">About</div>
-          <div className="col-start-11 navbar-link">Contact</div>
+        <div className={`flex flex-row ${junge.variable}`}>
+          <div className="basis-1/12"/>
+          <div className="basis-1/12"><div className="logo"></div></div>
+          <div className="basis-1/12"/>
+          <div className="basis-1/12"/>
+          <div className="basis-1/12"/>
+          <div className="basis-1/12"/>
+          <div className="basis-1/12"/>
+          <div className="basis-1/12"/>
+          <div className="basis-1/12 navbar-link">Work</div>
+          <div className="basis-1/12 navbar-link">About</div>
+          <div className="basis-1/12 navbar-link">Contact</div>
+          <div className="basis-1/12"/>
         </div>
       </div>
     </>
