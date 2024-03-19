@@ -14,11 +14,45 @@
   text-align: center;
 }
 
+.heading-2 {
+  color: rgb(0, 0, 0);
+  font-size: 120px;
+  font-family: var(--font-junge);
+}
+
 .subheading-1 {
   color: rgb(0, 0, 0);
   font-size: 48px;
   font-family: var(--font-junge);
   text-align: center;
+}
+
+.project {
+  margin-top: 116px;
+}
+
+.project-text {
+  color: rgb(0, 0, 0);
+  font-size: 32px;
+  font-family: var(--font-qcs);
+}
+
+.email-address {
+  color: rgb(203, 68, 25);
+  font-size: 48px;
+  font-family: var(--font-junge);
+}
+
+.project-link {
+  margin-top: 32px;
+  color: rgb(203, 68, 25);
+  font-size: 32px;
+  font-family: var(--font-junge);
+}
+
+.project-image {
+  object-fit: cover;
+  width: 100%;
 }
 
 .navbar {
