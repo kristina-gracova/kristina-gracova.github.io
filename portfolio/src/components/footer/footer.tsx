@@ -9,20 +9,11 @@ const junge = Junge({
 const Footer = () => {
   return (
     <>
-      <div className="h-120px navbar">
-        <div className={`flex flex-row ${junge.variable}`}>
-          <div className="basis-1/12"/>
-          <div className="basis-3/12 navbar-link">© 2024 Kristina Gracova</div>
-          <div className="basis-1/12"/>
-          <div className="basis-1/12"/>
-          <div className="basis-1/12"/>
-          <div className="basis-1/12"/>
+        <div className={`flex flex-row ${junge.variable} max-h-[10vh] mt-[37vh] ml-[15vw] mr-[15vw]`}>
+          <div className="basis-6/12 navbar-link grow">© 2024 Kristina Gracova</div>
           <div className="basis-1/12 navbar-link">LinkedIn</div>
           <div className="basis-1/12 navbar-link">Behance</div>
-          <div className="basis-1/12 navbar-link">Dribbble</div>
-          <div className="basis-1/12"/>
         </div>
-      </div>
     </>
   )
 }

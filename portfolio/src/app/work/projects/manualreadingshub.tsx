@@ -16,8 +16,8 @@ export default function ManualReadingsHub() {
   return (
     <>
       <div className={`flex flex-row ${junge.variable}`}>
-        <div className="basis-1/12"/>
-        <div className="basis-4/12">
+        <div className="basis-2/12"/>
+        <div className="basis-3/12">
           <div className="heading-2">Manual Readings Hub</div>
           <div className={`project-text ${qcs.variable}`}>
             Admin platform providing a complete overview of meter readings,

@@ -4,8 +4,11 @@ import Navbar from "../components/navbar/navbar";
 export default function Home() {
   return (
     <main>
-      <Navbar/>
-      <Landing/>
+      <div id="page-overlay"/>
+      <div className="flex flex-col flex-wrap">
+        <Navbar/>
+        <Landing/>
+      </div>
     </main>
   );
 }

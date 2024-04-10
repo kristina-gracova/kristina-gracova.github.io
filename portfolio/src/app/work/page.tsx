@@ -1,3 +1,4 @@
+import Slider from "@/components/slider/slider";
 import Navbar from "../../components/navbar/navbar";
 import ConnectedHomeHub from "./projects/connectedhomehub";
 import JarOfJoy from "./projects/jarofjoy";
@@ -9,7 +10,8 @@ export default function Work() {
   return (
     <main>
       <Navbar/>
-      <div className="project flex flex-col gap-52">
+      <div className="flex flex-col justify-center gap-52">
+        <Slider name="Work"/>
         <JarOfJoy/>
         <ConnectedHomeHub/>
         <MyYogaStudio/>

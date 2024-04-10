@@ -10,20 +10,27 @@ const junge = Junge({
 const Navbar = () => {
   return (
     <>
-      <div className="h-120px navbar">
-        <div className={`flex flex-row ${junge.variable}`}>
-          <div className="basis-1/12"/>
-          <div className="basis-1/12"><Link href="/"><div className="logo"><img src="./kg.svg"></img></div></Link></div>
-          <div className="basis-1/12"/>
-          <div className="basis-1/12"/>
-          <div className="basis-1/12"/>
-          <div className="basis-1/12"/>
-          <div className="basis-1/12"/>
-          <div className="basis-1/12"/>
-          <div className="basis-1/12 navbar-link"><Link href="/work">Work</Link></div>
-          <div className="basis-1/12 navbar-link"><Link href="/about">About</Link></div>
-          <div className="basis-1/12 navbar-link"><Link href="/contact">Contact</Link></div>
-          <div className="basis-1/12"/>
+      <div className={`flex flex-row ${junge.variable} max-h-[10vh] mt-[1vw] ml-[15vw] mr-[15vw]`}>
+        <div className="basis-6/12 grow">
+          <Link href="/"><div className="logo"><img src="./kg.svg"></img></div></Link>
+        </div>
+        <div className="basis-1/12 navbar-link">
+          <div className="flex flex-col items-center">
+            <Link className="navbar-link-inner" href="/work">Work</Link>
+            <div className="navbar-link-dot">.</div>
+          </div>
+        </div>
+        <div className="basis-1/12 navbar-link">
+          <div className="flex flex-col items-center">
+            <Link className="navbar-link-inner" href="/about">About</Link>
+            <div className="navbar-link-dot">.</div>
+          </div>
+        </div>
+        <div className="basis-1/12 navbar-link">
+          <div className="flex flex-col items-center">
+            <Link className="navbar-link-inner" href="/contact">Contact</Link>
+            <div className="navbar-link-dot">.</div>
+          </div>
         </div>
       </div>
     </>

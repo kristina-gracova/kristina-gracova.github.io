@@ -1,3 +1,4 @@
+import Slider from "@/components/slider/slider";
 import Navbar from "../../components/navbar/navbar";
 import { Junge, Quattrocento_Sans } from "next/font/google";
 
@@ -17,9 +18,11 @@ export default function About() {
   return (
     <main>
       <Navbar/>
+      <div className="flex flex-col gap-52">
+      <Slider name="About"/>
       <div className={`project flex flex-row ${junge.variable}`}>
-        <div className="basis-1/12"/>
-        <div className="basis-6/12">
+        <div className="basis-2/12"/>
+        <div className="basis-5/12">
           <div className="heading-2">Hi, I’m Kristina</div>
           <div className={`project-text pb-12 ${qcs.variable}`}>
             A seasoned UX/UI designer based in London. Over the past five years,
@@ -33,6 +36,7 @@ export default function About() {
           </div>
         </div>
         <div className="basis-5/12"/>
+      </div>
       </div>
     </main>
   );

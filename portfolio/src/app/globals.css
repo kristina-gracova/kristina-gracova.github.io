@@ -27,10 +27,6 @@
   text-align: center;
 }
 
-.project {
-  margin-top: 116px;
-}
-
 .project-text {
   color: rgb(0, 0, 0);
   font-size: 32px;
@@ -55,10 +51,6 @@
   width: 100%;
 }
 
-.navbar {
-  margin-top: 42px;
-}
-
 .navbar-link {
   color: rgb(0, 0, 0);
   font-size: 32px;
@@ -69,12 +61,66 @@
   padding-bottom: 40.5px;
 }
 
+.navbar-link-inner {
+  color: rgb(0, 0, 0);
+  transition: 0.3s;
+}
+
+.navbar-link-inner:hover {
+  color: rgb(203, 68, 25);
+  transition: 0.3s;
+}
+
+.navbar-link-dot {
+  opacity: 0;
+
+  color: rgb(0, 0, 0);
+  transition: 0.3s ease-in-out;
+  font-size: 32px;
+  font-family: var(--font-junge);
+  transform: scale(2.5, 2.5) translateY(-30%);
+  pointer-events: none; 
+}
+
+a:hover + .navbar-link-dot {
+  opacity: 1;
+  color: rgb(203, 68, 25);
+  transition: 0.3s ease-in-out;
+}
+
 .logo {
   width: 90px;
   height: 90px;
   margin-top: 15px;
   margin-bottom: 15px;
   border:1px solid rgb(203, 68, 25);
+}
+
+.slider {
+  width: 100vw;
+  height: 100vh;
+  padding-bottom: 40vh;
+  overflow: hidden;
+  transition: 0.5s;
+  background-color: rgb(255, 253, 245);
+  animation: 0.5s slide-up;
+  z-index: -1;
+  animation-fill-mode: forwards;
+  animation-delay: 0.8s;
+}
+
+@keyframes slide-up {
+  from {
+    margin-top: 0vh;
+  }
+
+  to {
+    margin-top: -15vh;
+    height: 10vh;
+    visibility:hidden;
+    opacity:0;
+    padding-bottom: 0vh;
+  }
 }
 
 body {

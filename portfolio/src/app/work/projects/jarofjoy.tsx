@@ -16,8 +16,8 @@ export default function JarOfJoy() {
   return (
     <>
       <div className={`flex flex-row ${junge.variable}`}>
-        <div className="basis-1/12"/>
-        <div className="basis-4/12">
+        <div className="basis-2/12"/>
+        <div className="basis-3/12">
           <div className="heading-2">Jar of Joy</div>
           <div className={`project-text ${qcs.variable}`}>
             A fun-filled app designed to enhance children’s development
