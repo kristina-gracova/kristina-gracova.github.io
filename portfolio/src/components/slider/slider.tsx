@@ -9,7 +9,7 @@ const junge = Junge({
 const Slider = (props : { name: string }) => {
   return (
     <>
-      <div className={`flex heading-1 justify-center items-center slider ${junge.variable}`}>
+      <div className={`flex heading-1 justify-center items-center slider ${junge.variable} `}>
         &#xb7; {props.name} &#xb7;
       </div>
     </>
