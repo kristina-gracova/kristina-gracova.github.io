@@ -1,2 +1,0 @@
-# Kristina Gracova - Portfolio
-
