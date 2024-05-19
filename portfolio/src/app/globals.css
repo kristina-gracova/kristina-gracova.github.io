@@ -108,10 +108,13 @@ a:hover + .navbar-link-dot {
 }
 
 .logo {
+  object-fit: contain;
+  width: auto;
   height: 100%;
 }
 
 .project-image {
+  object-fit: cover;
   height: 100%;
   width: 100%;
 }
