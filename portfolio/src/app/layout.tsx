@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import PageAnimatePresence from "./pageanimatepresence";
 
 export const metadata: Metadata = {
   title: "Kristina Gracova",
@@ -14,7 +13,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body><PageAnimatePresence>{children}</PageAnimatePresence></body>
+      <head>
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+      </head>
+      <body>{children}</body>
     </html>
   );
 }

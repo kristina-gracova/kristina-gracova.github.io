@@ -9,10 +9,10 @@ const junge = Junge({
 const Landing = () => {
   return (
     <>
-      <div className={`flex flex-wrap flex-col justify-center ${junge.variable} mt-[8vh]`}>
-        <div className="basis-full heading-1">Kristina</div>
-        <div className="basis-full subheading-1">• Senior UX/UI Designer based in London •</div>
-        <div className="basis-full heading-1">Gracova</div>
+      <div className={`flex flex-wrap flex-col justify-center grow ${junge.variable}`}>
+        <div className="basis-full heading-1 text-[10vh] lg:text-[15vh]">Kristina</div>
+        <div className="basis-full subheading-1 text-[3vh] lg:text-[5vh]">• Senior UX/UI Designer based in London •</div>
+        <div className="basis-full heading-1 text-[10vh] lg:text-[15vh]">Gracova</div>
       </div>
     </>
   )
