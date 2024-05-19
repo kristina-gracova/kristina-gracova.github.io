@@ -21,7 +21,7 @@ export default function Contact() {
         <div className="basis-2/12"/>
         <div className="basis-5/12">
           <div className="heading-2 text-[4vh] xl:text-[10vh] ml-[0vw] xl:ml-[-4vw] pb-12">Let’s work together</div>
-          <div className={`email-address text-[2vh] xl:text-[5vh] ml-[0vw] xl:ml-[-4vw] ${junge.variable}`}>
+          <div className={`email-address text-[2.5vh] xl:text-[3vh] ml-[0vw] xl:ml-[-4vw] ${junge.variable}`}>
               <Link href="mailto:hello@kristinagracova.com">hello@kristinagracova.com</Link>
           </div>
         </div>

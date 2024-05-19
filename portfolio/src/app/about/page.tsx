@@ -23,7 +23,7 @@ export default function About() {
         <div className={`flex flex-row flex-wrap xl:flex-nowrap ${junge.variable}`}>
           <div className="basis-1/1 xl:basis-2/12"/>
           <div className="basis-1/1 xl:basis-5/12">
-            <div className="heading-2 text-[4vh] xl:text-[10vh] ml-[3vw] xl:ml-[-2vw] mr-[3vw]">Hi, I’m Kristina</div>
+            <div className="heading-2 text-[4vh] xl:text-[10vh] ml-[3vw] xl:ml-[-2vw] mr-[3vw] pb-12">Hi, I’m Kristina</div>
             <div className={`project-text text-[2.5vh] xl:text-[3vh] ml-[3vw] xl:ml-[-2vw] mr-[3vw] pb-12 ${qcs.variable}`}>
               A seasoned UX/UI designer based in London. Over the past five years,
               I have specialised in crafting experiences that combine aesthetics with
