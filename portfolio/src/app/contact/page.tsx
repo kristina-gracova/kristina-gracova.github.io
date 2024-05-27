@@ -20,8 +20,8 @@ export default function Contact() {
       <div className={`project flex flex-row min-h-[60vh] ${junge.variable}`}>
         <div className="basis-2/12"/>
         <div className="basis-5/12">
-          <div className="heading-2 text-[4vh] md:text-[10vh] ml-[0vw] md:ml-[-4vw] pb-12">Let’s work together</div>
-          <div className={`email-address text-[2.5vh] md:text-[3vh] ml-[0vw] md:ml-[-4vw] ${junge.variable}`}>
+          <div className="heading-2 text-[4vh] lg:text-[10vh] ml-[0vw] lg:ml-[-4vw] pb-12">Let’s work together</div>
+          <div className={`email-address text-[2.5vh] lg:text-[3vh] ml-[0vw] lg:ml-[-4vw] ${junge.variable}`}>
               <Link href="mailto:hello@kristinagracova.com">hello@kristinagracova.com</Link>
           </div>
         </div>

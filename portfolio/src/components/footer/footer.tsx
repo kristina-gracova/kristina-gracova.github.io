@@ -10,8 +10,8 @@ const junge = Junge({
 const Footer = () => {
   return (
     <>
-        <div className={`flex flex-row ${junge.variable} max-h-[10vh] mt-[5vw] md:mt-[2vw] ml-[8vw] md:ml-[12vw] mr-[1vw] md:mr-[13vw] gap-[5vw]`}>
-          <div className="hidden md:block md:basis-6/12 navbar-link grow text-[3vh]">© 2024 Kristina Gracova</div>
+        <div className={`flex flex-row ${junge.variable} max-h-[10vh] mt-[5vw] lg:mt-[2vw] ml-[8vw] lg:ml-[12vw] mr-[1vw] lg:mr-[13vw] gap-[5vw]`}>
+          <div className="hidden lg:block lg:basis-6/12 navbar-link grow text-[3vh]">© 2024 Kristina Gracova</div>
           <div className="basis-1/12 navbar-link">
             <div className="flex flex-col min-h-[100%] items-center justify-center">
               <Link className="navbar-link-inner text-[3vh]" href="https://www.linkedin.com/in/kristina-gracova/">LinkedIn</Link>

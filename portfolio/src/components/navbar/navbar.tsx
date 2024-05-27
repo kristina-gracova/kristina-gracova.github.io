@@ -17,7 +17,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div className={`flex flex-row ${junge.variable} min-h-[10vh] max-h-[10vh] mt-[5vw] md:mt-[2vw] ml-[4vw] md:ml-[15vw] mr-[4vw] md:mr-[15vw] gap-[5vw]`}>
+      <div className={`flex flex-row ${junge.variable} min-h-[10vh] max-h-[10vh] mt-[5vw] lg:mt-[2vw] ml-[4vw] lg:ml-[15vw] mr-[4vw] lg:mr-[15vw] gap-[5vw]`}>
         <div className="basis-6/12 grow">
           <Link href="/"><Image className="logo" src={logoImage} alt="" priority={true}/></Link>
         </div>
