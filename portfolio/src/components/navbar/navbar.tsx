@@ -1,6 +1,9 @@
+"use client";
+
 import { Junge } from "next/font/google";
 import Link from "next/link";
 import Image from "next/image"
+import { usePathname } from 'next/navigation';
 import logoImage from "../../../public/kg.png"
 
 const junge = Junge({
@@ -10,6 +13,8 @@ const junge = Junge({
 })
 
 const Navbar = () => {
+  const pathName = usePathname();
+
   return (
     <>
       <div className={`flex flex-row ${junge.variable} min-h-[10vh] max-h-[10vh] mt-[5vw] xl:mt-[2vw] ml-[4vw] xl:ml-[15vw] mr-[4vw] xl:mr-[15vw] gap-[5vw]`}>
@@ -18,20 +23,20 @@ const Navbar = () => {
         </div>
         <div className="basis-1/12 navbar-link">
           <div className="flex flex-col min-h-[100%] items-center justify-center">
-            <Link className="navbar-link-inner text-[3vh]" href="/work">Work</Link>
-            <div className="navbar-link-dot">.</div>
+            <Link className={`navbar-link-inner text-[3vh] ${pathName === "/work" ? "navbar-link-active" : ""}`} href="/work">Work</Link>
+            { pathName !== "/work" && <div className="navbar-link-dot">.</div> }
           </div>
         </div>
         <div className="basis-1/12 navbar-link">
           <div className="flex flex-col min-h-[100%] items-center justify-center">
-            <Link className="navbar-link-inner text-[3vh]" href="/about">About</Link>
-            <div className="navbar-link-dot">.</div>
+            <Link className={`navbar-link-inner text-[3vh] ${pathName === "/about" ? "navbar-link-active" : ""}`} href="/about">About</Link>
+            { pathName !== "/about" && <div className="navbar-link-dot">.</div> }
           </div>
         </div>
         <div className="basis-1/12 navbar-link">
           <div className="flex flex-col min-h-[100%] items-center justify-center">
-            <Link className="navbar-link-inner text-[3vh]" href="/contact">Contact</Link>
-            <div className="navbar-link-dot">.</div>
+            <Link className={`navbar-link-inner text-[3vh] ${pathName === "/contact" ? "navbar-link-active" : ""}`} href="/contact">Contact</Link>
+            { pathName !== "/contact" && <div className="navbar-link-dot">.</div> }
           </div>
         </div>
       </div>
