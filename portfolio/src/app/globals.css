@@ -109,7 +109,7 @@ a:hover + .navbar-link-dot {
 
 .logo {
   object-fit: contain;
-  width: auto;
+  width: fit-content;
   height: 100%;
 }
 

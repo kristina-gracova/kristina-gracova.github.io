@@ -12,9 +12,9 @@ const junge = Junge({
 const Navbar = () => {
   return (
     <>
-      <div className={`flex flex-row ${junge.variable} max-h-[10vh] mt-[5vw] xl:mt-[2vw] ml-[4vw] xl:ml-[15vw] mr-[4vw] xl:mr-[15vw] gap-[5vw]`}>
+      <div className={`flex flex-row ${junge.variable} min-h-[10vh] max-h-[10vh] mt-[5vw] xl:mt-[2vw] ml-[4vw] xl:ml-[15vw] mr-[4vw] xl:mr-[15vw] gap-[5vw]`}>
         <div className="basis-6/12 grow">
-          <Link href="/"><Image className="logo" src={logoImage} alt=""/></Link>
+          <Link href="/"><Image className="logo" src={logoImage} alt="" priority={true}/></Link>
         </div>
         <div className="basis-1/12 navbar-link">
           <div className="flex flex-col min-h-[100%] items-center justify-center">
