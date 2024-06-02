@@ -1,10 +1,23 @@
 import type { Metadata } from "next";
+import { Junge, Quattrocento_Sans } from "next/font/google";
 import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Kristina Gracova",
   description: "Portfolio",
 };
+
+const fontJunge = Junge({
+  weight: "400",
+  subsets: ["latin"],
+  variable: "--font-junge",
+});
+
+const fontQcs = Quattrocento_Sans({
+  weight: "400",
+  subsets: ["latin"],
+  variable: "--font-qcs",
+});
 
 export default function RootLayout({
   children,
@@ -16,7 +29,7 @@ export default function RootLayout({
       <head>
         <link rel="icon" href="/favicon.ico" sizes="any" />
       </head>
-      <body>{children}</body>
+      <body><div className={`${fontJunge.variable} ${fontQcs.variable}`}>{children}</div></body>
     </html>
   );
 }
