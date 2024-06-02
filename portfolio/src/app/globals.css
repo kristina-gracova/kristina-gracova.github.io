@@ -29,8 +29,13 @@
   font-family: var(--font-qcs);
 }
 
-.project-header-background {
+.chh-header-background {
   background-color: #0073E1;
+  min-width: 100vw;
+}
+
+.mrh-header-background {
+  background-color: #0091F4;
   min-width: 100vw;
 }
 

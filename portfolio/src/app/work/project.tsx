@@ -18,7 +18,7 @@ const qcs = Quattrocento_Sans({
 const Project = (props : { name: string; text: string; icon: any, project: string }) => {
   return (
     <>
-      <div className={`flex flex-row flex-wrap lg:flex-nowrap ${junge.variable} mb-[15vw] lg:mb-[0vw]`}>
+      <div className={`flex flex-row flex-wrap lg:flex-nowrap break-words ${junge.variable} mb-[15vw] lg:mb-[0vw]`}>
         <div className="basis-1/1 lg:basis-1/2 min-w-[40vw]">
             <div className="heading-2 text-[4vh] lg:text-[10vh] mt-[4vw] ml-[4vw] lg:ml-[15vw] mr-[4vw] lg:mr-[6vw]">{props.name}</div>
             <div className={`project-text text-[2.5vh] lg:text-[3vh] ml-[4vw] lg:ml-[15vw] mr-[4vw] lg:mr-[6vw] mt-[2vw] ${qcs.variable}`}>

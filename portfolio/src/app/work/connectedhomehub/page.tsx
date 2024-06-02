@@ -30,7 +30,7 @@ export default function ConnectedHomeHub() {
       <div className={`flex flex-row flex-wrap min-w-[100vw] min-h-[100vh] justify-center ${junge.variable} ${qcs.variable}`}>
         <div className="flex flex-col flex-wrap" id="start">
             <div className="basis-1/1">
-              <div className="project-header-background">
+              <div className="chh-header-background">
                 <div className="all-projects pt-[1vh] ml-[4vw] lg:ml-[27.5vw] text-[1.5vh] lg:text-[2.5vh]">
                   <Link href={`/work`}><Image className="arrow" src={rarrowImage} alt=""/> All projects</Link>
                 </div>
