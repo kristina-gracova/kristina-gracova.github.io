@@ -29,7 +29,11 @@ export default function RootLayout({
       <head>
         <link rel="icon" href="/favicon.ico" sizes="any" />
       </head>
-      <body><div className={`${fontJunge.variable} ${fontQcs.variable}`}>{children}</div></body>
+      <body>
+        <div className={`${fontJunge.variable} ${fontQcs.variable}`}>
+          {children}
+        </div>
+      </body>
     </html>
   );
 }
