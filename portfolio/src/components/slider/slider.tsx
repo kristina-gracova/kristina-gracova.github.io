@@ -1,16 +1,8 @@
-import { Junge } from "next/font/google";
-
-const junge = Junge({
-  weight: "400",
-  subsets: ["latin"],
-  variable: "--font-junge",
-})
-
 const Slider = (props : { name: string }) => {
   return (
     <>
-      <div className={`flex heading-1 justify-center items-center slider ${junge.variable} `}>
-        <div className="text-[9vh] lg:text-[15vh]">&#xb7; {props.name} &#xb7;</div>
+      <div className="flex slider justify-center mt-[10rem]">
+        <div className="heading-1 text-7xl md:text-9xl">&#xb7; {props.name} &#xb7;</div>
       </div>
     </>
   );

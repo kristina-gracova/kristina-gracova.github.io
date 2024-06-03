@@ -11,10 +11,13 @@ import manualreadingshubImage from "../../../public/manualreadingshub.png";
 export default function Work() {
   return (
     <main>
-      <div className="flex flex-col flex-wrap min-w-[100vw] min-h-[100vh]">
-        <Navbar/>
-        <div className="flex flex-col flex-wrap justify-center gap-[3vw]">
+      <div className="grid grid-flow-row auto-rows-auto mt-[2rem] ml-[2rem] mr-[2rem] text-2xl md:text-3xl">
+        <div>
+          <Navbar/>
+        </div>
+          {/* <div className="row-span-1"> */}
           <Slider name="Work"/>
+          {/* </div> */}
           <Project name="Jar of Joy"
                    project="jarofjoy"
                    icon={jarofjoyImage}
@@ -36,7 +39,6 @@ export default function Work() {
                    icon={manualreadingshubImage}
                    text="Admin platform providing a complete overview of meter readings, data editing and user management"/>
         </div>
-      </div>
     </main>
   );
 }

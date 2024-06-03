@@ -78,7 +78,7 @@
   color: rgb(0, 0, 0);
   transition: 0.3s ease-in-out;
   font-family: var(--font-junge);
-  transform: scale(3.5, 3.5) translateY(30%);
+  transform: scale(1.5, 1.5) translateY(30%);
   pointer-events: none; 
   position: absolute;
 }
@@ -97,9 +97,7 @@ a:hover + .navbar-link-dot {
 }
 
 .slider {
-  width: 100%;
   height: 100vh;
-  padding-bottom: 40vh;
   overflow: hidden;
   transition: 0.5s;
   background-color: rgb(255, 253, 245);
@@ -111,27 +109,15 @@ a:hover + .navbar-link-dot {
 
 @keyframes slide-up {
   0% {
-    margin-top: 0vh;
-  }
-
-  50% {
-    visibility: hidden;
-    opacity: 0;
+    height: 100vh;
   }
 
   100% {
-    margin-top: 0vh;
-    height: 5vh;
-    padding-bottom: 0vh;
+    margin-top: -5rem;
     visibility: hidden;
     opacity: 0;
+    height: 0vh;
   }
-}
-
-.logo {
-  object-fit: contain;
-  width: fit-content;
-  height: 100%;
 }
 
 .arrow {
@@ -167,4 +153,10 @@ body {
 .all-projects {
   color: #FFFFFF;
   font-family: var(--font-junge);
+}
+
+.project-image {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
 }

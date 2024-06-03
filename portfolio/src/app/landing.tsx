@@ -1,18 +1,10 @@
-import { Junge } from "next/font/google";
-
-const junge = Junge({
-  weight: "400",
-  subsets: ["latin"],
-  variable: "--font-junge",
-})
-
 const Landing = () => {
   return (
     <>
-      <div className={`flex flex-wrap flex-col justify-center grow ${junge.variable}`}>
-        <div className="basis-full heading-1 text-[10vh] lg:text-[15vh]">Kristina</div>
-        <div className="basis-full subheading-1 text-[3vh] lg:text-[5vh]">• Senior UX/UI Designer based in London •</div>
-        <div className="basis-full heading-1 text-[10vh] lg:text-[15vh]">Gracova</div>
+      <div className="mt-[10rem] flex flex-wrap flex-col justify-center grow gap-[3rem]">
+        <div className="basis-full heading-1 text-7xl md:text-9xl">Kristina</div>
+        <div className="basis-full subheading-1 text-3xl md:text-4xl">• Senior UX/UI Designer based in London •</div>
+        <div className="basis-full heading-1 text-7xl md:text-9xl">Gracova</div>
       </div>
     </>
   )
