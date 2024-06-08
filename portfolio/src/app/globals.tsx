@@ -1,6 +1,7 @@
-export const k_PAGE_WIDTH = "max-w-[80rem]";
+export const k_PAGE_WIDTH = "max-w-[90rem] mx-auto";
 export const k_PAGE_MARGIN = "mt-[2rem] ml-[2rem] mr-[2rem] mb-[2rem]"
-export const k_PAGE_MARGIN_NO_TOP = "mt-[2rem] md:mt-[0px] ml-[2rem] mr-[2rem]"
+export const k_PAGE_MARGIN_NO_TOP = "mt-[0px] pl-[2rem] pr-[2rem]"
+export const k_PAGE_MARGIN_SIDES = "ml-[2rem] mr-[2rem]"
 export const k_FONT_DEFAULT = "text-2xl md:text-3xl";
 export const k_FONT_HEADING_1 = "heading-1 text-7xl md:text-9xl";
 export const k_FONT_SUBHEADING_1 = "subheading-1 text-3xl md:text-5xl";

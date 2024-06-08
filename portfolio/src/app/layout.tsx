@@ -33,9 +33,7 @@ export default function RootLayout({
       <body>
         <div className={`${fontJunge.variable}
                          ${fontQcs.variable}
-                         ${k_FONT_DEFAULT}
-                         ${k_PAGE_WIDTH}
-                         mx-auto`}>
+                         ${k_FONT_DEFAULT}`}>
           {children}
         </div>
       </body>
