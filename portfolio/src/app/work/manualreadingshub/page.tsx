@@ -150,7 +150,7 @@ export default function ManualReadingsHub() {
           </div>
 
           <div className="basis-1/1">
-            <Link href="/work/jarofjoy"><Image className="justify-center max-w-[30rem] mx-auto" src={imgNext} alt=""/></Link>
+            <Link href="/work/jarofjoy"><Image className="justify-center max-w-[15rem] mx-auto" src={imgNext} alt=""/></Link>
           </div>
         </div>
       </div>
