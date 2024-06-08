@@ -85,7 +85,7 @@ export default function MyYogaStudio() {
 
           <div className="basis-1/1">
             <div className={`${k_FONT_PROJECT_TEXT}`}>
-            The user experience of My Yoga Studio prioritises simplicity and gamification. This ensures that users can easily navigate the app while enjoying a sense of accomplishment and engagement. Account creation is a crucial initial step, enabling users to seamlessly monitor their progress and schedule classes. Inspired by yoga's serene atmosphere, the interface is predominantly green, aiming to create a calm and peaceful experience for users as they engage with the app.
+            The user experience of My Yoga Studio prioritises simplicity and gamification. This ensures that users can easily navigate the app while enjoying a sense of accomplishment and engagement. Account creation is a crucial initial step, enabling users to seamlessly monitor their progress and schedule classes. Inspired by yoga&apos;s serene atmosphere, the interface is predominantly green, aiming to create a calm and peaceful experience for users as they engage with the app.
             </div>
           </div>
 
@@ -99,7 +99,7 @@ export default function MyYogaStudio() {
 
           <div className="basis-1/1">
             <div className={`${k_FONT_PROJECT_TEXT}`}>
-            The app is structured into four main sections, accessible via the bottom navigation bar. The Home tab provides an overview of the user's progress and upcoming classes, prioritising essential information. Gamification elements are integrated into proficiency levels and achievements to enhance user engagement and motivation. By rewarding progress, these features aim to boost satisfaction, encourage regular usage, and foster a sense of accomplishment in the yoga journey.
+            The app is structured into four main sections, accessible via the bottom navigation bar. The Home tab provides an overview of the user&apos;s progress and upcoming classes, prioritising essential information. Gamification elements are integrated into proficiency levels and achievements to enhance user engagement and motivation. By rewarding progress, these features aim to boost satisfaction, encourage regular usage, and foster a sense of accomplishment in the yoga journey.
             </div>
           </div>
 
@@ -141,7 +141,7 @@ export default function MyYogaStudio() {
 
           <div className="basis-1/1">
             <div className={`${k_FONT_PROJECT_TEXT}`}>
-            The Profile section provides users with insights into their progress, including proficiency level, achievements, and activity. Integrating gamification elements aims to motivate and engage users, ultimately enhancing their wellbeing. To provide context to this progress, it is essential to visually link it with the number of days yoga was practiced, establishing a clear perspective on users' achievements.
+            The Profile section provides users with insights into their progress, including proficiency level, achievements, and activity. Integrating gamification elements aims to motivate and engage users, ultimately enhancing their wellbeing. To provide context to this progress, it is essential to visually link it with the number of days yoga was practiced, establishing a clear perspective on users&apos; achievements.
             </div>
           </div>
 

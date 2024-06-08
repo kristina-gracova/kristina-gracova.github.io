@@ -48,7 +48,7 @@ export default function JarOfJoy() {
 
           <div className="basis-1/1">
             <div className={`${k_FONT_PROJECT_TEXT}`}>
-              Jar of Joy is a fun-filled app designed to enhance children's development and wellbeing. It offers a carefully curated collection of engaging, screen-free activities that promote quality time between parents and their children.
+              Jar of Joy is a fun-filled app designed to enhance children&apos;s development and wellbeing. It offers a carefully curated collection of engaging, screen-free activities that promote quality time between parents and their children.
             </div>
           </div>
 
@@ -63,7 +63,7 @@ export default function JarOfJoy() {
                   Goal
                 </div>
                 <div className={`${k_FONT_PROJECT_TEXT} pt-[1rem]`}>
-                Create an app that provides a curated collection of simple and enjoyable family activities, aiming to enhance children's skills, save parents time, and foster a stronger parent-child connection.
+                Create an app that provides a curated collection of simple and enjoyable family activities, aiming to enhance children&apos;s skills, save parents time, and foster a stronger parent-child connection.
                 </div>
               </div>
 
@@ -86,7 +86,7 @@ export default function JarOfJoy() {
 
           <div className="basis-1/1">
             <div className={`${k_FONT_PROJECT_TEXT}`}>
-              The Jar of Joy app's user experience heavily relies on a card-based layout, with each card featuring an illustration that complements the game title. These illustrations were carefully chosen for their vividness, providing an engaging alternative to icons. The interface is designed to be vibrant and playful, reflecting the joyful nature of children's activities. These design decisions were made through iterative refinement, incorporating feedback at every stage.
+              The Jar of Joy app&apos;s user experience heavily relies on a card-based layout, with each card featuring an illustration that complements the game title. These illustrations were carefully chosen for their vividness, providing an engaging alternative to icons. The interface is designed to be vibrant and playful, reflecting the joyful nature of children&apos;s activities. These design decisions were made through iterative refinement, incorporating feedback at every stage.
             </div>
           </div>
 
@@ -100,7 +100,7 @@ export default function JarOfJoy() {
 
           <div className="basis-1/1">
             <div className={`${k_FONT_PROJECT_TEXT}`}>
-            All games are categorised into six sections based on children's interests, making it easy for parents to discover activities. The 'Game of the day' is prominently displayed at the top of the Home tab, directing users' attention to popular or newly added games and encouraging daily app visits.
+            All games are categorised into six sections based on children&apos;s interests, making it easy for parents to discover activities. The &apos;Game of the day&apos; is prominently displayed at the top of the Home tab, directing users&apos; attention to popular or newly added games and encouraging daily app visits.
             </div>
           </div>
 
@@ -139,7 +139,7 @@ export default function JarOfJoy() {
             In preparation for an extensive range of activities within the app, a favourites functionality has been introduced to allow users to save games for later. Represented by a heart button in the interface, this feature allows quick access to activities children enjoyed the most, accessible via the Favourites tab. Additionally, testing feedback highlights the need for an option to schedule games in advance.
             </div>
             <div className={`${k_FONT_PROJECT_TEXT} mt-[1rem]`}>
-            The Profile tab's structure prioritises the display of membership status and children's ages. This information enables personalised app content tailored to each user. Following this, game insights are shown, contributing to the gamification aspect. User suggestions advocate for the inclusion of a more detailed activity history on this tab.
+            The Profile tab&apos;s structure prioritises the display of membership status and children&apos;s ages. This information enables personalised app content tailored to each user. Following this, game insights are shown, contributing to the gamification aspect. User suggestions advocate for the inclusion of a more detailed activity history on this tab.
             </div>
           </div>
 
@@ -167,7 +167,7 @@ export default function JarOfJoy() {
 
           <div className="basis-1/1">
             <div className={`${k_FONT_PROJECT_TEXT}`}>
-            User feedback is occasionally collected within the app through short questions with open-ended or multiple-choice answers, creating a feedback loop that fosters continuous improvement of the app and its content. This process aims to gather insights into the types of activities parents prefer, the skills they wish their children to develop, and the kind of assistance they require for their children's development.
+            User feedback is occasionally collected within the app through short questions with open-ended or multiple-choice answers, creating a feedback loop that fosters continuous improvement of the app and its content. This process aims to gather insights into the types of activities parents prefer, the skills they wish their children to develop, and the kind of assistance they require for their children&apos;s development.
             </div>
           </div>
 

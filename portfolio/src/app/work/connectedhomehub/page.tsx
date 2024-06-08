@@ -64,7 +64,7 @@ export default function ConnectedHomeHub() {
                   Goal
                 </div>
                 <div className={`${k_FONT_PROJECT_TEXT} pt-[1rem]`}>
-                  A complete redesign and rebranding of the former 'HomeManager' application, developed for energy management
+                  A complete redesign and rebranding of the former &apos;HomeManager&apos; application, developed for energy management
                   and smart home control.
                 </div>
               </div>
@@ -92,7 +92,7 @@ export default function ConnectedHomeHub() {
               The user experience of the Connected Home Hub app centres on simplicity and minimalism.
               The customer journey begins with the installation of the Q-Reader, a smart meter reader that facilitates energy data collection.
               Once installed, users can effortlessly create an account in just a few clicks, ensuring a swift transition from installation to
-              engagement with the app's core functionality.
+              engagement with the app&apos;s core functionality.
             </div>
           </div>
 
@@ -147,7 +147,7 @@ export default function ConnectedHomeHub() {
             <div className={`${k_FONT_PROJECT_TEXT}`}>
               To get the most out of heating automation, users can activate holiday mode to ensure that no energy is wasted
               while they are away from home. The feature is quick and easy to set up, even on the go, offering choices for duration,
-              temperature, and which rooms to adjust. Returning to a warm home is a hassle-free experience, thanks to the system's
+              temperature, and which rooms to adjust. Returning to a warm home is a hassle-free experience, thanks to the system&apos;s
               effective energy management.
             </div>
           </div>

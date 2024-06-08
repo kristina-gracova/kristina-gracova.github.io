@@ -114,7 +114,7 @@ export default function ManualReadingsHub() {
 
           <div className="basis-1/1">
             <div className={`${k_FONT_PROJECT_TEXT}`}>
-            Users can access detailed information about metering points by clicking on them and navigating to the platform's second level, which is divided into three tabs for simplicity. The 'Point details' tab allows users to view and edit metering point information, while the 'Measurements and values' tab displays all historical meter readings. Energy analysts rely on these readings for consumption analysis, billing, and scheduling future readings. The 'QR code' tab generates stickers for utility meters, facilitating paperless data collection.              </div>
+            Users can access detailed information about metering points by clicking on them and navigating to the platform&apos;s second level, which is divided into three tabs for simplicity. The &apos;Point details&apos; tab allows users to view and edit metering point information, while the &apos;Measurements and values&apos; tab displays all historical meter readings. Energy analysts rely on these readings for consumption analysis, billing, and scheduling future readings. The &apos;QR code&apos; tab generates stickers for utility meters, facilitating paperless data collection.              </div>
           </div>
 
           <div className="basis-1/1">
