@@ -10,7 +10,6 @@
 .heading-1 {
   color: rgb(203, 68, 25);
   font-family: var(--font-junge);
-  text-align: center;
 }
 
 .heading-2 {
@@ -21,27 +20,11 @@
 .subheading-1 {
   color: rgb(0, 0, 0);
   font-family: var(--font-junge);
-  text-align: center;
 }
 
 .project-text {
   color: rgb(0, 0, 0);
   font-family: var(--font-qcs);
-}
-
-.chh-header-background {
-  background-color: #0073E1;
-  min-width: 100vw;
-}
-
-.mrh-header-background {
-  background-color: #0091F4;
-  min-width: 100vw;
-}
-
-.project-header {
-  object-fit: cover;
-  height: 100%;
 }
 
 .email-address {
@@ -112,20 +95,16 @@ a:hover + .navbar-link-dot {
     height: 100vh;
   }
 
+  50% {
+    opacity: 0;
+  }
+
   100% {
     margin-top: -5rem;
     visibility: hidden;
     opacity: 0;
     height: 0vh;
   }
-}
-
-.arrow {
-  margin-left: 0.5vw;
-  margin-right: 0.5vw;
-  margin-bottom: 0.5vh;
-  width: 5vw;
-  display: inline-block;
 }
 
 .project-image {

@@ -7,11 +7,12 @@ import connectedhomehubImage from "../../../public/connectedhomehub.png";
 import myyogastudioImage from "../../../public/myyogastudio.png";
 import qreadingsImage from "../../../public/qreadings.png";
 import manualreadingshubImage from "../../../public/manualreadingshub.png";
+import { k_PAGE_MARGIN } from "../globals";
 
 export default function Work() {
   return (
     <main>
-      <div className="grid grid-flow-row auto-rows-auto mt-[2rem] ml-[2rem] mr-[2rem] text-2xl md:text-3xl">
+      <div className={`grid grid-flow-row auto-rows-auto ${k_PAGE_MARGIN}`}>
         <div>
           <Navbar/>
         </div>

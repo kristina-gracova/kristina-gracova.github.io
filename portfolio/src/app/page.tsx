@@ -1,10 +1,11 @@
-import Landing from "./landing";
+import Landing from "../components/landing/landing";
 import Navbar from "../components/navbar/navbar";
+import { k_PAGE_MARGIN } from "./globals";
 
 export default function Home() {
   return (
     <main>
-      <div className="mt-[2rem] ml-[2rem] mr-[2rem] text-2xl md:text-3xl">
+      <div className={`${k_PAGE_MARGIN}`}>
         <div>
           <Navbar/>
         </div>

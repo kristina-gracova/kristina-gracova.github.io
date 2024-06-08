@@ -1,41 +1,31 @@
 import Slider from "@/components/slider/slider";
 import Navbar from "../../components/navbar/navbar";
-import { Junge, Quattrocento_Sans } from "next/font/google";
-
-const junge = Junge({
-  weight: "400",
-  subsets: ["latin"],
-  variable: "--font-junge",
-});
-
-const qcs = Quattrocento_Sans({
-  weight: "400",
-  subsets: ["latin"],
-  variable: "--font-qcs",
-});
+import { k_FONT_HEADING_2, k_FONT_PROJECT_TEXT, k_PAGE_MARGIN } from "../globals";
 
 export default function About() {
   return (
     <main>
-      <div className="flex flex-col flex-wrap min-w-[100vw] min-h-[100vh]">
-        <Navbar/>
+      <div className={`${k_PAGE_MARGIN}`}>
+        <div>
+          <Navbar/>
+        </div>
         <Slider name="About"/>
-        <div className={`flex flex-row flex-wrap lg:flex-nowrap ${junge.variable}`}>
-          <div className="basis-1/1 lg:basis-2/12"/>
-          <div className="basis-1/1 lg:basis-5/12">
-            <div className="heading-2 text-[4vh] lg:text-[10vh] ml-[3vw] lg:ml-[-2vw] mr-[3vw] pb-12">Hi, I’m Kristina</div>
-            <div className={`project-text text-[2.5vh] lg:text-[3vh] ml-[3vw] lg:ml-[-2vw] mr-[3vw] pb-12 ${qcs.variable}`}>
+        <div className={`mt-[10rem] flex flex-row flex-wrap`}>
+          <div className="basis-1/1 md:basis-7/12">
+            <div className={`${k_FONT_HEADING_2}`}>
+              Hi, I’m Kristina
+            </div>
+            <div className={`${k_FONT_PROJECT_TEXT} mt-[2rem]`}>
               A seasoned UX/UI designer based in London. Over the past five years,
               I have specialised in crafting experiences that combine aesthetics with
               functionality. My approach is rooted in minimalism, always emphasising
               clarity and simplicity.
             </div>
-            <div className={`project-text text-[2.5vh] lg:text-[3vh] ml-[3vw] lg:ml-[-2vw] mr-[3vw] ${qcs.variable}`}>
+            <div className={`${k_FONT_PROJECT_TEXT} mt-[2rem]`}>
               With a background in marketing, I bring strategic edge to my designs,
               ensuring they not only delight users but also drive business growth.
             </div>
           </div>
-          <div className="basis-0/1 lg:basis-5/12"/>
         </div>
       </div>
     </main>

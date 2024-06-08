@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Junge, Quattrocento_Sans } from "next/font/google";
 import "./globals.css";
+import { k_FONT_DEFAULT, k_PAGE_WIDTH } from "./globals";
 
 export const metadata: Metadata = {
   title: "Kristina Gracova",
@@ -30,7 +31,11 @@ export default function RootLayout({
         <link rel="icon" href="/favicon.ico" sizes="any" />
       </head>
       <body>
-        <div className={`${fontJunge.variable} ${fontQcs.variable} text-3xl max-w-[100rem] mx-auto`}>
+        <div className={`${fontJunge.variable}
+                         ${fontQcs.variable}
+                         ${k_FONT_DEFAULT}
+                         ${k_PAGE_WIDTH}
+                         mx-auto`}>
           {children}
         </div>
       </body>
