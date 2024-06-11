@@ -5,6 +5,7 @@ export const k_PAGE_MARGIN_SIDES = "ml-[2rem] mr-[2rem]"
 export const k_FONT_DEFAULT = "text-2xl md:text-3xl";
 export const k_FONT_HEADING_1 = "heading-1 text-7xl md:text-9xl";
 export const k_FONT_SUBHEADING_1 = "subheading-1 text-3xl md:text-5xl";
+export const k_FONT_EMAIL = "subheading-1 text-2xl md:text-5xl";
 export const k_FONT_HEADING_2 = "heading-2 text-5xl lg:text-8xl";
 export const k_FONT_PROJECT_TEXT = "project-text text-lg md:text-2xl";
 export const k_FONT_ALL_PROJECTS = "all-projects text-lg md:text-3xl";

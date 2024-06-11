@@ -19,11 +19,7 @@ export default function ConnectedHomeHub() {
   return (
     <main>
       <div className={`${k_PAGE_WIDTH} ${k_PAGE_MARGIN_NO_TOP} mt-[2rem] md:mt-[0px] block md:hidden`}>
-        <div className={`grid grid-flow-row auto-rows-auto`}>
-          <div className="flex flex-col flex-wrap gap-[1rem]">
-            <Navbar/>
-          </div>
-        </div>
+        <Navbar/>
       </div>
 
       <div className={`grid grid-flow-row auto-rows-auto mb-[1rem]`}>
