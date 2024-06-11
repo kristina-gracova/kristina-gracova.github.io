@@ -12,7 +12,7 @@ const Project = (props : { name: string; text: string; icon: any, project: strin
               {props.text}
           </div>
           <div className={`project-link ${k_FONT_PROJECT_TEXT} mt-[1rem]`}>
-            <Link href={`/work/${props.project}#start`}>
+            <Link href={`/work/${props.project}`}>
               Explore this project
               <Image className="inline-block ml-[1rem] w-[4rem]" src={arrowImage} alt=""/>
             </Link>
